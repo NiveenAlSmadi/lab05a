@@ -106,11 +106,15 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-
+    let m1=multiply(testArray[0],testArray[1])[0];
+    let m2=multiply(testArray[2],m1)[0];
+    let mmm= 'The numbers '+ testArray[0]+','+testArray[1] +','+testArray[2]  + ' have a product of '+ m2 +'.';
+    //console.log(m2);
+    return[m2,mmm];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
@@ -134,6 +138,14 @@ Test this function by hand in the console to get it working, and when you think 
 var testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
+    let d1=a+b+c;
+    let m=a*b*c;
+    let s= a +' and ' + b +' and '+ c + ' sum to '+ d +'.';
+    let ss ='The product of ' + a +' and ' + b +' and '+ c + ' is '+ m +'.';
+    //console.log(s,ss);
+    return [d,m,s,ss];
+
+
 
 }
 
