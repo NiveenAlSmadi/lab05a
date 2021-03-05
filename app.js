@@ -138,6 +138,14 @@ Test this function by hand in the console to get it working, and when you think 
 var testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
+    let d1=a+b+c;
+    let m=a*b*c;
+    let s= a +' and ' + b +' and '+ c + ' sum to '+ d +'.';
+    let ss ='The product of ' + a +' and ' + b +' and '+ c + ' is '+ m +'.';
+    //console.log(s,ss);
+    return [d,m,s,ss];
+
+
 
 }
 
